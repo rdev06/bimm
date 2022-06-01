@@ -6,6 +6,7 @@
 Parser app uses a number of open source projects to work properly:
 
 - [node.js] - Js Framework
+- [jest] - Test Framework
 
 ## Installation
 
@@ -25,6 +26,12 @@ npm i
 npm start
 ```
 
+### Test
+
+```sh
+npm test
+```
+
 ### Set Env Variable
 
 Change the value of .env file in the root level
@@ -38,3 +45,7 @@ navigate to [http://localhost:3000](http://localhost:3000)
 _With Optional Query Parama_
 
 [http://localhost:3000?offset=20&limit=20](http://localhost:3000?offset=20&limit=20)
+
+
+
+NOTE: _I added only one test case as a sample_
