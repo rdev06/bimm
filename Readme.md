@@ -34,3 +34,7 @@ Change the value of .env file in the root level
 _With default Value_
 
 navigate to [http://localhost:3000](http://localhost:3000)
+
+_With Optional Query Parama_
+
+[http://localhost:3000?offset=20&limit=20](http://localhost:3000?offset=20&limit=20)

@@ -2,7 +2,7 @@ const vehicleMakeSchema = require('./vehicleMake.schema');
 
 module.exports = {
   vehicleMakeSchema,
-  vehiclesMakeWithypes: async ({offset = 0, limit = 20}) => {
+  vehiclesMakeWithypes: async (offset = 0, limit = 20) => {
     const query = [
       {
         $skip: offset,
