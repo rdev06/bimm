@@ -1,0 +1,36 @@
+# Vehicle Parser App
+## _Node.js application, which sync the vehicle details in document db(used mongodb) and then send the data to client as per requirement._
+
+## Tech
+
+Parser app uses a number of open source projects to work properly:
+
+- [node.js] - Js Framework
+
+## Installation
+
+Requires [Node.js](https://nodejs.org/) v16+ to run.
+Dev done on _v16.14.2_
+
+Install the dependencies and devDependencies.
+
+```sh
+cd bimm
+npm i
+```
+
+### Execute
+
+```sh
+npm start
+```
+
+### Set Env Variable
+
+Change the value of .env file in the root level
+
+### Usage
+
+_With default Value_
+
+navigate to [http://localhost:3000](http://localhost:3000)
