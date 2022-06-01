@@ -20,6 +20,12 @@ cd bimm
 npm i
 ```
 
+### Sync Data/ Seeding
+
+```sh
+npm run sync
+```
+
 ### Execute
 
 ```sh
