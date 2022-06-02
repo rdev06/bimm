@@ -46,6 +46,8 @@ _With Optional Query Parama_
 
 [http://localhost:3000?offset=20&limit=20](http://localhost:3000?offset=20&limit=20)
 
+And Pagination values are sent via headers i.e totalCount, offset, limit
+
 
 
 NOTE: _I added only one test case as a sample_
