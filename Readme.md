@@ -41,6 +41,7 @@ npm test
 ### Set Env Variable
 
 Change the value of .env file in the root level
+NOTE: I kept this one just for an example
 
 ### Usage
 

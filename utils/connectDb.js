@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
-const config = require('../config');
+const {MONGO_URL, mongodbOptions} = require('../config');
 const db = mongoose.connection;
 if(!db.readyState){
-  mongoose.connect(process.env.MONGO_URL, config.mongodbOptions);
+  mongoose.connect(MONGO_URL, mongodbOptions);
 }
 
 module.exports = new Promise((resolve, reject) => {

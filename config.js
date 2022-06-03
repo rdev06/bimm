@@ -1,4 +1,7 @@
+const {MONGO_URL, PORT} = process.env;
+
 module.exports = {
     mongodbOptions: {},
-    ...process.env
+    MONGO_URL,
+    PORT
 }
